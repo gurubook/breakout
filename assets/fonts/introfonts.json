@@ -1,0 +1,14 @@
+{ "columns":10,
+ "image":"introfonts.png",
+ "imageheight":1024,
+ "imagewidth":1280,
+ "margin":0,
+ "name":"introfonts",
+ "spacing":0,
+ "tilecount":80,
+ "tiledversion":"1.4.3",
+ "tileheight":128,
+ "tilewidth":128,
+ "type":"tileset",
+ "version":1.4
+}
