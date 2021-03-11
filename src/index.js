@@ -74,6 +74,7 @@ var Breakout = new Phaser.Class({
     },
     update: function() {
         if (this.ball.y > 600) {
+            this.audioEffects[10].play();
             this.resetBall();
         }
         this.warpStarfield();
@@ -176,7 +177,7 @@ var Breakout = new Phaser.Class({
             //  Add a little random X to stop it bouncing straight up!
             ball.setVelocityX(2 + Math.random() * 8);
         }
-        this.audioEffects[8].play();
+        this.audioEffects[6].play();
     },
 
     createStarfield: function() {
